@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans'
+}
+img {
+    width: 100%;
+}
+.mobile-navtop {
+    display: none;
+}
+.navtop ul {
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 0;
+    padding: 7px;
+    width: 100%;
+}
+.navtop a {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    line-height: 26px;
+    margin-left: 18px;
+}
+.navtop a:hover {
+    padding: 24px;
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+}
+.navtop li {
+    list-style-type: none;
+    display: inline;
+}
+header {
+    background-image: url('assets/jollypiano.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 625px;
+}
+.mytunes {
+    text-align: center;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 160px;
+}
+.mytunes h1 {
+    color: white;
+    font-size: 64px;
+}
+.mytunes h2 {
+    color: white;
+    font-size: 32px;
+    margin: 27px 0;
+    line-height: 51px;
+}
+.mytunes p {
+    font-size: 21px;
+    color: white;
+    margin-top: 21px;
+    line-height: 33px;
+}
+.sectiontop {
+    background-color: rgb(37, 37, 41);
+    text-align: center;
+    color: white;
+    padding: 32px 48px;
+}
+.sectiontop img {
+    width: 100%;
+}
+.sectiontop h2 {
+    font-size: 40px;
+}
+.sectiontop h3 {
+    font-size: 32px;
+    margin: 32px 0;
+    color: white;
+}
+.sectiontop p {
+    font-size: 21px;
+    margin: 21px;
+    line-height: 33px;
+}
+#musicpara {
+    font-size: 16px;
+    margin: 16px 0;
+}
+.sectiontop button {
+    background-color: rgb(185, 4, 21);
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    line-height: 26px;
+    border: none;
+    margin-bottom: 16px;
+}
+.sectiontop button:hover {
+    cursor: pointer;
+    background-color: rgb(204, 19, 38);
+}
+.collection {
+    background-color: rgb(244, 244, 244);
+    padding: 32px 48px;
+    text-align: center;
+}
+.collection h3 {
+    font-size: 32px;
+    margin: 32px 0;
+    color: rgba(51, 51, 51, 0.9);
+}
+.collection p {
+    color: rgba(51, 51, 51, 0.9);
+    font-size: 21px;
+    margin: 21px 0;
+    line-height: 34px;
+}
+.collection button {
+    border: none;
+    line-height: 26px;
+    font-size:16px;
+    padding: 16px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(16, 48, 99);
+}
+.collection button:hover {
+    cursor: pointer;
+    background-color: rgba(16, 48, 99, 0.8);
+}
+.entertainment {
+    background-image: url('assets/jollyimage1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.entertainment h3 {
+    margin: 32px 0;
+    font-size: 32px;
+    line-height: 52px;
+    color: white;
+}
+.entertainment p {
+    font-size: 21px;
+    margin: 21px 0;
+    line-height: 33px;
+    color: white;
+}
+.sectionlast {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 32px;
+    background-color: rgb(244, 244, 244);
+}
+.sectionlast img {
+    width: 678px;
+}
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(37, 37, 41);
+    color: white;
+    padding: 32px;
+}
+.giftpara p:nth-child(3) {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+    padding-bottom: 5px;
+}
+.giftpara p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    width: 590px;
+    line-height: 25px;
+}
+#redeem a {
+    color: rgb(16, 48, 99);
+    font-size: 16px;
+    text-decoration: none;
+    /* border-top: 1px solid rgb(51, 51, 51); */
+}
+h3 {
+    color: rgb(51, 51, 51);
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foothead h4 {
+    color: white;
+    font-weight: lighter;
+    font-size: 19.2px;
+    border-bottom: 1px solid rgb(68, 68, 68);
+    margin-bottom: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 200px;
+}
+.footlink ul {
+    margin-right: 20px;
+}
+.footlink a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+.footlist li {
+    list-style-type: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#footerbtm {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+}
+@media screen and (width: 768px) {
+    .mytunes h1 {
+        font-size: 48px;
+    }
+    .mytunes h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .mytunes p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sectiontop {
+        padding: 28px 20px;
+    }
+    .sectiontop h3 {
+        font-size: 26px;
+    }
+    .sectiontop p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sectiontop button {
+        font-size: 12px;
+        padding: 14px;
+        line-height: 16px;
+    }
+    #musicpara {
+        margin: 16px auto;
+        font-size: 12px;
+    }
+    .collection h3 {
+        font-size: 26px;
+    }
+    .collection p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .collection button {
+        font-size: 12px;
+        padding: 12px;
+        line-height: 16px;
+    }
+    .entertainment h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .entertainment p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sectionlast {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionlast img {
+        width: 500px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .giftpara p {
+        font-size: 12px;
+    }
+    #container {
+        display: none;
+    }
+    #footerbtm {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 425px) {
+    header {
+        height: 500px;
+    }
+    .navtop {
+        display: none;
+    }
+    .mobile-navtop {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(51, 51, 51);
+        position: fixed;
+        top: 0;
+        padding: 8px 16px;
+        width: 100%;
+        border-bottom: 0.5px solid #555;
+    }
+    #menudrop {
+        font-size: 20px;
+        color: rgb(238, 238, 238);
+    }
+    .mobile-navtop a {
+        display: inline-block;
+        font-size: 20px;
+        color: rgb(238, 238, 238);
+        text-decoration: none;
+        line-height: 26px;
+    }
+    .menulist {
+        display: none;
+    }
+    .mytunes {
+        padding-top: 50px;
+    }
+    .mytunes h1 {
+        font-size: 44px;
+    }
+    .mytunes h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .mytunes p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sectiontop {
+        padding: 28px 20px;
+    }
+    .sectiontop h3 {
+        font-size: 26px;
+    }
+    .sectiontop p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sectiontop button {
+        font-size: 12px;
+        padding: 14px;
+        line-height: 16px;
+    }
+    #musicpara {
+        margin: 16px auto;
+        font-size: 12px;
+    }
+    .collection h3 {
+        font-size: 26px;
+    }
+    .collection p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .collection button {
+        font-size: 12px;
+        padding: 12px;
+        line-height: 16px;
+    }
+    .entertainment {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .entertainment h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .entertainment p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sectionlast {
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 32px 0 32px;
+    }
+    .sectionlast img {
+        width: 250px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .giftpara p {
+        font-size: 12px;
+        width: 300px;
+    }
+    #container {
+        display: none;
+    }
+    #footerbtm {
+        font-size: 14px;
+    }
+}

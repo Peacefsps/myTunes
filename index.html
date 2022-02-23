@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myTunes</title>
+</head>
+<link rel="stylesheet" href="myTunes.css">
+<body>
+    <div class="navtop">
+        <ul>
+            <li><a href="#mytunes";>myTunes</a></li>
+            <li><a href="#overview";>Overview</a></li>
+            <li><a href="#music";>Music</a></li>
+            <li><a href="#video";>Video</a></li>
+            <li><a href="#giftcards";>Gift Cards</a></li>
+        </ul>
+    </div>
+    <div class="mobile-navtop">
+        <a href="#mytunes";>myTunes</a>
+        <span id="menudrop">&#9776</span>
+        <div class="menulist">
+            <a href="#mytunes";>myTunes</a>
+            <a href="#overview";>Overview</a>
+            <a href="#music";>Music</a>
+            <a href="#video";>Video</a>
+            <a href="#giftcards";>Gift Cards</a>
+        </div>
+    </div>
+    <header>
+        <div class="mytunes">
+            <h1>myTunes</h1>
+            <h2>Your music, movies, and TV shows take center stage.</h3>
+            <p>myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want. Enjoy all the entertainment myTunes has to offer on your Mac and PC.</p>
+        </div>
+    </header>
+    <section class="sectiontop">
+            <h2>Music</h2>
+            <h3>45 million songs. Zero ads.</h3>
+            <p>Stream over 45 million songs, ad-free. Or download albums and tracks to listen to offline. All the music in your personal myTunes library — no matter where it came from — lives right alongside the Orange Music catalog. Start your free three-month trial with no commitment, and cancel anytime.</p>
+            <button>Start Your Trial Now</button>
+            <p id="musicpara">Orange Music is available in myTunes, and for iOS and Android devices.</p>
+            <img src="assets/tablet.png" alt="tablet">
+    </section>
+    <section class="collection">
+            <h3>The movie and TV collection you always wished for. Granted.</h3>
+            <p>With over 100,000 movies and TV shows to choose from, there’s always something great to watch on myTunes and if you watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite content in 4K HDR. So get ready to enjoy episodes of your favorite TV shows or hit movies you’ve been waiting to see — anytime, anywhere. Just tap to play, or even download if you’re going somewhere you won’t have Wi-Fi.</p>
+            <button>Read More</button>
+            <img src="assets/mytunesimage.png" alt="mytunesimage">
+    </section>
+    <section class="entertainment">
+            <h3>A world of entertainment. Available wherever you are.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veniam nobis, nisi ut expedita, doloribus reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit eos tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente recusandae minima quo aperiam quam, excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!</p>
+    </section>
+    <section class="sectionlast">
+            <img src="assets/giftcard.png">
+            <div class="giftpara">
+                <h3>Gift Cards</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque expedita tempore quasi omnis a aut et totam illo fuga accusamus dolorum vero, ut harum consectetur. Minima molestias officiis culpa non sed dicta itaque. Et aliquam illo obcaecati molestias veritatis porro.</p>
+                <p>Already have an Orange MyTunes Music Gift Card?</p>
+                <p id="redeem"><a href="#redeem">Redeem</a></p>
+            </div>
+        </section>
+        <footer>
+            <div id="container">
+                <div class="footlink footlist foothead">
+                    <h4>Shop & Learn</h4>
+                    <ul>
+                        <li><a href="#music" target="blank";>Music</a></li>
+                        <li><a href="#movies" target="blank";>Movies</a></li>
+                        <li><a href="#shows" target="blank";>Shows</a></li>
+                        <li><a href="#apps" target="blank";>Apps</a></li>
+                        <li><a href="#giftcards" target="blank";>Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footlink footlist foothead">
+                    <h4>Orange Store</h4>
+                    <ul>
+                        <li><a href="#store" target="blank";>Find a Store</a></li>
+                        <li><a href="#today" target="blank";>Today at Orange</a></li>
+                        <li><a href="#camp" target="blank";>Orange Camp</a></li>
+                        <li><a href="#finance" target="blank";>Financing</a></li>
+                        <li><a href="#order" target="blank";>Order Status</a></li>
+                    </ul>
+                </div>
+                <div class="footlink footlist foothead">
+                    <h4>Education & Business</h4>
+                    <ul>
+                        <li><a href="#education" target="blank";>Orange & Education</a></li>
+                        <li><a href="#shop" target="blank";>Shop For College</a></li>
+                        <li><a href="#orange" target="blank";>Orange & Business</a></li>
+                        <li><a href="#business" target="blank";>Shop For Business</a></li>
+                        <li><a href="#jobs" target="blank";>Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footlink footlist foothead">
+                    <h4>About Orange</h4>
+                    <ul>
+                        <li><a href="#newsroom" target="blank";>Newsroom</a></li>
+                        <li><a href="#leadership" target="blank";>Orange Leadership</a></li>
+                        <li><a href="#investors" target="blank";>Investors</a></li>
+                        <li><a href="#events" target="blank";>Events</a></li>
+                        <li><a href="#contact" target="blank";>Contact Orange</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footerbtm">
+                <p>Copyright © 2019 Orange myTunes</p>
+            </div>
+        </footer>
+</body>
+</html>
+<script>
+    const menuDrop = document.querySelector("#menudrop");
+    const menuList = document.querySelectorAll(".menulist");
+    menuDrop.addEventListener("click", function() {
+        for (let i = 0; i < menuList.length; i++) {
+            if (menuList[i].style.display) {
+                menuList[i].style.display = "display"
+            } else {
+                menuList[i].style.display = "none"
+            }
+        }
+    })
+</script>
