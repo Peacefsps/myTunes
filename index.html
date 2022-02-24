@@ -21,11 +21,11 @@
         <a href="#mytunes";>myTunes</a>
         <span id="menudrop">&#9776</span>
         <div class="menulist">
-            <a href="#mytunes";>myTunes</a>
-            <a href="#overview";>Overview</a>
-            <a href="#music";>Music</a>
-            <a href="#video";>Video</a>
-            <a href="#giftcards";>Gift Cards</a>
+            <a href="#mytunes">myTunes</a>
+            <a href="#overview">Overview</a>
+            <a href="#music">Music</a>
+            <a href="#video">Video</a>
+            <a href="#giftcards">Gift Cards</a>
         </div>
     </div>
     <header>
@@ -113,14 +113,12 @@
 </html>
 <script>
     const menuDrop = document.querySelector("#menudrop");
-    const menuList = document.querySelectorAll(".menulist");
+    const menuList = document.querySelector(".menulist");
     menuDrop.addEventListener("click", function() {
-        for (let i = 0; i < menuList.length; i++) {
-            if (menuList[i].style.display) {
-                menuList[i].style.display = "display"
+            if (menuList.style.display === "block") {
+                menuList.style.display = "none"
             } else {
-                menuList[i].style.display = "none"
+                menuList.style.display = "block"
             }
-        }
     })
 </script>
